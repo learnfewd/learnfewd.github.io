@@ -1,7 +1,8 @@
 // Make it rain!
-// $('h5').hide();
+$('li').hide();
 $('form').hide();
 $('aside').hide();
+$('.NewReview').hide();
 
 /*$('.Review').on('click', function(){
 	$('.box').removeClass('crazy'); 
@@ -11,10 +12,22 @@ $('aside').hide();
 
 $('.Review').on('click', function(){
     $('form').toggle(3000);
+	$('.NewReview').toggle(3000);
 });
-
 
 $('.NewReview').on('click', function(){
-    $('aside').show(3000);
+    $('aside').toggle(3000);
 });
 
+
+$('.Chew1').on('click', function(){
+    $('.Menu').toggle(3000);
+});
+
+$('.Chew2').on('click', function(){
+    $('.Time').toggle(3000);
+});
+
+/*$('.NewReview').on('click', function(){
+    $('aside').toggle(3000);
+});*/
