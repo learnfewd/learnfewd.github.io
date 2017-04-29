@@ -6,7 +6,6 @@
 * {
   box-sizing: border-box;
   background-color: #bc9a1e;
- /*text-align: center;*/
  font-family: 'Ranga', cursive;
 }
 
@@ -80,10 +79,6 @@ footer {
   width: 30px;
   margin-bottom: 6px; 
 }
-/*
-.line:last-child {
-  margin-bottom: 0;
-}*/
 
 .Review {
 /*position: relative;
@@ -141,7 +136,8 @@ textarea {
 }
 .Time {
   display: inline;
-  font-size: 10px;
+  justify-content: space-between;
+  font-size: 20px;
   font-family: 'Ranga', cursive;
   text-align: right;
 }
