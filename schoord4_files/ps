@@ -1,0 +1,19 @@
+var om_app_pix = new Array();
+om_app_pix[0] = new Image();
+om_app_pix[0].src = "http://ad.doubleclick.net/ddm/activity/src=4487253;type=invmedia;cat=klaui7ho;u1=100017;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?";
+om_app_pix[1] = new Image();
+om_app_pix[1].src = "http://rtb.gumgum.com/usersync?b=ada&i=106571832930";
+om_app_pix[2] = new Image();
+om_app_pix[2].src = "http://geo-um.btrll.com/v1/map/0b7563eb0d2a0f3c/106571832930/";
+om_app_pix[3] = new Image();
+om_app_pix[3].src = "http://sync.adap.tv/sync?type=gif&key=394_adaramedia_336&uid=106571832930";
+om_app_pix[4] = new Image();
+om_app_pix[4].src = "http://ad.yieldlab.net/m?dm_id=50707&ext_id=106571832930";
+om_app_pix[5] = new Image();
+om_app_pix[5].src = "http://ads.yahoo.com/pixel?id=2293332&t=2";
+om_app_pix[6] = new Image();
+om_app_pix[6].src = "http://uav.tidaltv.com/3PDPHandler.aspx?tpdp=223&segs=TestB";
+om_app_pix[7] = new Image();
+om_app_pix[7].src = "http://idsync.rlcdn.com/367258.gif?partner_uid=106571832930";
+
+

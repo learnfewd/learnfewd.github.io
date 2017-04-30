@@ -1,0 +1,421 @@
+.trail-body p {margin-bottom: 24px !important}
+
+.stopitemslist .steptextindent p {font-size: 15px}
+
+#trailpage .xspot.spotholder:not(.spotopen) {margin-bottom: 50px}
+
+#trailpage .stopitemslist {padding-top: 50px}
+
+#foursquare-list li:nth-child(6) {display: none}
+
+.fullsize.articletrail .gamma {float: none !important; display: block !important}
+.fullsize.articletrail .township {float: none !important; display: block !important; margin: 0 !important; padding:5px 0 !important}
+.mobile.articletrail .alpha br, .mobile.articletrail .alpha br:after  {content: ' '}  /* ignore break tags on mobile title */
+
+.articletrail .zipcar {display: none;}
+
+.towns.townstrail .zipcar{display: block;}
+
+
+/* ADDED .fullsize.pageunit .description-wrap p, .fullsize.pageunit .description-wrap  li {font-size: 15px;} */
+
+/* vertical spacing */
+
+.break-5 {
+  height: 5px;
+}
+.break-10 {
+  height: 10px;
+}
+.break-15 {
+  height: 15px;
+}
+.break-20 {
+  height: 20px;
+}
+.break-25 {
+  height: 25px;
+}
+.break-30 {
+  height: 30px;
+}
+.break-35 {
+  height: 35px;
+}
+.break-40 {
+  height: 40px;
+}
+.break-45 {
+  height: 45px;
+}
+.break-50 {
+  height: 50px;
+}
+
+#header .logo a {background-image: url(/m/home-visit-philadelphia2.png?2);}
+
+#content-bg {
+    background: #ffffff url(/m/screen/bg-content.gif) repeat-x 0 top; /*EB:  this fixes the repeating bg issue for now */
+  }
+
+.fullsize .noslides .caption {width: 100%;}
+
+body.article.articletypeformattedlist #content .main h2.title {font-size: 34px;}
+
+body.article.articletypeformattedlist #content .main h2.title a {color: #37455c;}
+body.article.articletypeformattedlist #content .main h2.title a:hover {opacity: .8;}
+
+.socialrank td{padding:3px;}
+
+.pageunit .details-pad .actions {display: none}
+
+.pageunit .details-pad .actions {display: none}
+
+.mobile.article #barnespkg{
+  width: 100% !important
+}
+
+.mobile.article #barnespkg th{
+ display: none
+}
+
+.mobile.article #barnespkg td{
+  display: block;
+
+}
+
+.article em.instagramcaption {
+  font-size: 16px;
+  line-height: 25px;
+
+}
+
+
+
+/* Open for WMOF table */
+
+#openforwmof {
+    margin: 0 auto;
+    max-width: 800px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+#openforwmof tr {
+    display: block;
+    position: relative;
+}
+#openforwmof tbody td {
+    min-width: 169px;
+}
+#openforwmof tbody {
+    display: block;
+    overflow: auto;
+    height: 600px;
+    position: relative;
+    width: 100%
+}
+.wmof-o:after {
+    content:"\f058";
+    font-family: FontAwesome;
+    color: green;
+    font-size: 26px
+}
+.wmof-x:after {
+    content:"\f057";
+    font-family: FontAwesome;
+    color: red;
+    font-size: 26px;
+}
+.wmof-w:after {
+    content:"\f071";
+    font-family: FontAwesome;
+    color: #e5e500;
+    font-size: 26px;
+}
+#openforwmof td {
+    f border: 1px dashed #ccc;
+    text-align: center;
+    padding: 10px 0
+}
+#openforwmof td.attr {
+    text-align: left;
+    padding: 3px 10px;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.2em;
+    vertical-align: middle
+;
+    width: 280px !important;
+}
+#openforwmof th {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    min-width: 169px;
+    font-family: arial;
+    color: #606060;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center
+}
+#openforwmof thead tr {
+    outline: 1px solid #ccc
+}
+#openforwmof {
+    border: 1px solid #ccc !important
+}
+#openforwmof th:nth-child(1) {
+    min-width: 280px;
+}
+#openforwmof thead {
+    background-color: #f8f8f8;
+}
+#openforwmof tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+#openforwmof tfoot li {
+    list-style-type: none;
+    display: inline;
+}
+
+#openforwmof tfoot li:nth-child(1) {
+    padding: 0 20px
+}
+
+#openforwmof tfoot ul {
+  margin: 0 auto;
+}
+#openforwmof tfoot td {
+    padding: 10px 0 5px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    display: block;
+}
+ #openforwmof .keylabel {
+    font-family: arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #606060
+}
+.mobile #openforwmof {
+    width: 85% !important;
+    display: block;
+}
+.mobile #openforwmof thead {
+    display: none
+}
+
+.mobile #openforwmof tfoot td{
+  border-bottom: 1px solid #ccc
+}
+.mobile #openforwmof tbody td:before {
+    content: attr(data-th)": ";
+    font-weight: bold;
+    width: 45%;
+    display: inline-block;
+    font-family: arial;
+    color: #606060;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-left: 10px
+}
+
+.mobile #openforwmof tbody td:nth-child(1):before {
+  display: none
+}
+.mobile #openforwmof td {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.mobile #openforwmof td.attr {
+    padding: inherit;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    width: 100% !important;
+}
+
+.mobile #openforwmof tbody tr {
+       display: inline-block
+}
+.mobile #openforwmof tfoot li {
+    list-style-type: none;
+    display: inline;
+    text-align: left;
+
+}
+.mobile #openforwmof tfoot {
+    display: block;
+    width: 100%;
+
+}
+.mobile #openforwmof tfoot ul {
+    padding-left: inherit;
+    display: block;
+    text-align: center
+}
+.mobile #openforwmof tfoot td{
+  margin: 0;
+  padding-bottom: 0
+}
+.mobile #openforwmof .keylabel {
+    text-align: center;
+    font-weight: bold;
+}
+.mobile #openforwmof tbody {
+  overflow-x:hidden;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* scrollpage image captions */
+
+.pagescroll figcaption{
+  margin-top: -10px;
+  text-align: right;
+  font-size: 11px;
+  line-height: 12px;
+  font-family: "MuseoSans-500", Helvetica, Arial;
+  font-weight: normal;
+  color: #828282;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.fullsize .pagescroll figcaption {
+
+width: 900px
+
+}
+
+.overnight .main p {
+  font-size: 15px;
+}
+
+.overnight .main li {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-left: 15px;
+}
+
+.overnight .main h2.vpo {
+  font-family: 'MuseoSans-700';
+  color: #1e2e47;
+}
+
+/* DNC Media Styles */
+
+.scroll-section .table1.contacts th{
+  text-align: left;
+}
+
+.scroll-section .table1.contacts td{
+  font-size: 18px;
+  border-bottom: 1px dotted #ccc
+
+}
+
+.scroll-section #wufoo-z1um0aw21xpg63e {
+  background-color: #efefef;
+  padding: 10px 5px;
+}
+
+.broll-top {
+  padding-bottom: 15px;
+  width: 100%;
+  max-width: 960px;
+}
+
+.scroll-section .broll-sub {
+  width: 32%;
+  display: inline-block;
+  margin: 0;
+  float: none !important;
+
+}
+
+.scroll-section .broll-sub.first{
+  padding-right: 1.5%
+}
+
+.scroll-section .broll-sub.second{
+  padding-right: 1.5%;
+}
+
+
+.mobile .scroll-section .table1.contacts th{
+  display: none;
+}
+
+.mobile .scroll-section .table1.contacts td{
+
+  border-bottom: none
+
+}
+.mobile .scroll-section .table1.contacts tr{
+
+  border-bottom: 1px dotted #ccc;
+  padding: 20px 0;
+}
+
+.mobile .scroll-section .table1.contacts tr:nth-child(1){
+ padding: 0
+
+}
+
+.mobile .scroll-section .broll-top {
+  padding-bottom: 10px;
+}
+
+.mobile .scroll-section .broll-sub {
+  width: 100%;
+  display: block !important;
+  padding-bottom: 10px;
+  height: 100%
+
+}
+
+.mobile .scroll-section .broll-sub.first{
+  padding-right: 0
+}
+
+.moibile .broll-sub.second{
+  padding-right: 0;
+}
+
+
+#trailpage .hplogo {
+  display: none;
+}
+
+#trailpage.hptrail .hplogo {
+  display: initial;
+}
+
+#trailpage .headcredit {
+  display: none !important
+}
+
+/* start homepage widget customizations */
+
+.home.fullsize .bd-home {
+  margin-top: 22px;
+}
+
+/* fix category page whitespace under slideshow */
+/*
+.fullsize .catslide .hasslides{
+  float: left;
+}
+*/
+
+/* unit slideshow fix */
+.pageunit.mobile .hasslides p.caption {
+  margin-top: 0;
+}
+
+.pageunit.fullsize .hasslides .caption {
+  width: 200px;
+}

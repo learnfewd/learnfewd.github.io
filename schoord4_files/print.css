@@ -1,0 +1,220 @@
+/*
+*************************************************
+
+visitphilly.com
+Print Styles
+
+Created by the friendly folks at Happy Cog
+http://www.happycog.com/
+
+*************************************************
+*/
+/*
+.to-print { display: block; }
+
+h1, h2 { margin-bottom: 0.5em; }
+	.heading-wrap h1 { margin-bottom: 0.1em; }
+	.heading-wrap { margin-bottom: 0.3em; }
+p, ul, ol { margin-bottom: 1em; }
+
+h2.theta, h2.ir-itineraries, h2.ir-featured-attraction, h2.ir-description { border-top: 4px solid #666; padding-top: 10px; }
+
+.home #content, .home #content-bg { background: none !important; }
+.home #main { float: none !important; width: 100% !important; background: none !important; padding: 0 !important; }
+.home .split-alt div.node { width: 100% !important; }
+.home #content { width: 100% !important; }
+
+#header-image { background: none !important; min-height: 0 !important; }
+#header-wrap { padding: 0.2in 0 10px; border-bottom: 5px solid #333; }
+
+.logo, #search, .nav-wrap, .move, .survey, .header-caption, .secondary, .controls, .accordian, .ir-dont-miss-these-hot-spots, .book-online, .ad, .coda-wrap, .sponsors ul, #footer .dossier ul, .more, .breadcrumbs, .map-locations, .get-directions, .actions, .roster, h2.ir-in-the-neighborhood, .header-controls-wrap, #header-message, .pagination a, .pagination strong strong { display: none; }
+
+.summary-alt, .summary { list-style-type: none; }
+	.summary-alt li, .summary li { border-top: 1px dashed #666; padding-top: 1em; }
+
+#content-wrap { position: static !important; }
+
+.split, .split-alt { border-bottom: 4px solid #666; padding-bottom: 10px; margin-bottom: 10px; }
+
+.pagination { margin-bottom: 10px; }
+
+*/
+.adminnoticeholder,
+.slideshow .controls,
+.sponsors,
+.dossier,
+.gotopholder,
+.directions,
+.mobsecond,
+.ir-in-the-neighborhood,
+.roster,
+.breadcrumbs,
+.nethead,
+.details-box .btn-action,
+.details-box .actions,
+#footer-top,
+.foottime,
+.adminlink,
+.hashtag,
+.mobspace,
+.moblogo,
+.logo a,
+.logo,
+.sharebuttons,
+#mfPreviewBar,
+.sidr,
+.mobheader,
+.sidr,
+p.move,
+.copylinks,
+.coda-wrap,
+.uwishunu-feed-holder,
+.related-box,
+.ir-facebook-like,
+.likebox,
+.related-box,
+.book-direct,
+.gptadsection {
+  display: none !important;
+}
+.coda,
+.main-full,
+.landing .main-full,
+.landing .main,
+#footer-wrap,
+#footer,
+body,
+#content-bg,
+#content-wrap,
+#content,
+#header-wrap {
+  max-width: none !important;
+  min-width: none !important;
+  width: auto !important;
+  background: #FFF !important;
+  float: none !important;
+}
+.no-coda #content-wrap,
+.main,
+.slideshow,
+.slide-wrap,
+.slideshow-main {
+  min-height: 0px !important;
+  max-height: none !important;
+  height: auto !important;
+}
+#header-wrap {
+  padding: 0px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 15px;
+}
+h1.alpha {
+  padding-bottom: 3px;
+  margin-bottom: 1px;
+}
+.heading-wrap H1.alpha {
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.heading-wrap p.subhead {
+  margin-top: 0px;
+  line-height: 14px;
+}
+.main p.caption,
+.ir-description,
+.slideshow,
+.main .slideshow {
+  border: 0px !important;
+}
+.map-wrap,
+.heading-wrap {
+  border-bottom: 0px !important;
+}
+.slide-wrap,
+#header,
+#header-wrap,
+#header-image {
+  display: block !important;
+}
+#header div,
+#header img,
+#header #search {
+  display: none;
+}
+#header .to-print {
+  display: block;
+}
+#header img.to-print {
+  width: 280px;
+  height: auto;
+}
+#footer {
+  border-top: 1px solid #CCC;
+  color: #666;
+  padding-top: 10px;
+}
+#footer a {
+  color: #666;
+  text-decoration: none;
+}
+.btn-med {
+  border: 2px solid #CCC;
+}
+.description-wrap,
+.description-wrap p,
+.description-wrap li {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+.main .slideshow {
+  max-width: 550px !important;
+}
+.main .slideshow .slide-wrap {
+  background: none;
+}
+.main .slideshow .slide-wrap,
+.main .slideshow IMG.slideshow-main {
+  width: 100% !important;
+  height: auto !important;
+}
+.main p.caption {
+  margin-top: 15px;
+  text-align: left;
+  width: 100% !important;
+}
+.slideshow.hasslides .caption {
+  float: none;
+  width: auto;
+}
+.stouch,
+.swiper-slide,
+.swiper-scrollbarcontainer,
+.swiper-container {
+  display: none;
+}
+.dossier a {
+  font-size: 11px;
+}
+#content {
+  position: relative;
+}
+.landing .sub,
+.sub {
+  position: absolute;
+  width: 200px !important;
+  top: 90px;
+  right: 0px;
+  float: none;
+}
+.main h2,
+.main .description-wrap {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+body {
+  width: 100% !important;
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
