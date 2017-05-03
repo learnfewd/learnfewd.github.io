@@ -3,6 +3,7 @@ $('li').hide();
 $('form').hide();
 $('aside').hide();
 $('.NewReview').hide();
+$('h4').hide();
 
 /*$('.Review').on('click', function(){
 	$('.box').removeClass('crazy'); 
@@ -30,4 +31,17 @@ $('.Chew2').on('click', function(){
 
 /*$('.NewReview').on('click', function(){
     $('aside').toggle(3000);
+});*/
+
+/*if (.contact && textarea = "") {
+    disable .NewReview
+}
+
+else if (.contact && textarea = "text"){
+enable .NewReview
+}
+
+if (.Reach out = "email")
+$('.Connect').on('click', function(){
+    $('h5').toggle(300);
 });*/
