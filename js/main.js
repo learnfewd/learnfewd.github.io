@@ -1,17 +1,12 @@
-// Make it rain!
+// hide a form
 $('li').hide();
 $('form').hide();
 $('aside').hide();
 $('.NewReview').hide();
 $('h4').hide();
 
-/*$('.Review').on('click', function(){
-	$('.box').removeClass('crazy'); 
-	$('h1').addClass('crazy');
-	$('#box3').slideToggle(300);
-})*/
-
-$('.Review').on('click', function(){
+// reveal form once button is clicked
+$('.review').on('click', function(){
     $('.contact').toggle(300);
 	$('.NewReview').toggle(300);
 });
@@ -21,27 +16,36 @@ $('.NewReview').on('click', function(){
 });
 
 
-$('.Chew1').on('click', function(){
+$('.chew1').on('click', function(){
     $('li').toggle(300);
 });
 
-$('.Chew2').on('click', function(){
-    $('.Time').toggle(300);
+$('.chew2').on('click', function(){
+    $('.time').toggle(300);
 });
 
-/*$('.NewReview').on('click', function(){
-    $('aside').toggle(3000);
-});*/
+// sticky nav
 
-/*if (.contact && textarea = "") {
-    disable .NewReview
+$('nav').addClass('original').clone().insertAfter('nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+
+scrollIntervalID = setInterval(stickIt, 10);
+
+function stickIt() {
+
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;               
+
+  if ($(window).scrollTop() >= (orgElementTop)) {
+        
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;  
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
 }
-
-else if (.contact && textarea = "text"){
-enable .NewReview
-}
-
-if (.Reach out = "email")
-$('.Connect').on('click', function(){
-    $('h5').toggle(300);
-});*/

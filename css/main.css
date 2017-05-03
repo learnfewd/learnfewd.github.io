@@ -80,7 +80,7 @@ footer {
   margin-bottom: 6px; 
 }
 
-.Review {
+.review {
 /*position: relative;
   left: 80.5%;*/
   padding-top: 10px;
@@ -88,7 +88,7 @@ footer {
   font-family: 'Ranga', cursive;
 }
 
-.Chew {
+.chew {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -130,11 +130,11 @@ textarea {
   border-radius: 8px;
 }
 
-.Other {
+.other {
   font-family: 'Ranga', cursive;
-  color: #ffffff;
+  color: #000000;
 }
-.Time {
+.time {
   display: inline;
   justify-content: space-between;
   font-size: 20px;
@@ -161,3 +161,4 @@ nav a {
 a:hover {
   color:#71a4f7;
 }
+
